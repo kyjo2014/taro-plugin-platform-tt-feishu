@@ -1,0 +1,42 @@
+export const noPromiseApis = new Set([
+  'offChatBadgeChange',
+  'getCustomizedInput',
+  'onWindowResize',
+  'offWindowResize',
+  'getUpdateManager',
+  'getTraceInfo'
+])
+
+export const needPromiseApis = new Set([
+  'startFaceIdentify',
+  'startFaceVerify',
+  'startLocalFaceVerify',
+  'checkLocalFaceVerify',
+  'prepareLocalFaceVerify',
+  'login',
+  'checkSession',
+  'getUserInfo',
+  'enterProfile',
+  'openSetting',
+  'getSetting',
+  'authorize',
+  'getHostLaunchQuery',
+  'getBlockActionSourceDetail',
+  'enterChat',
+  'getChatInfo',
+  'chooseChat',
+  'enterBot',
+  'sendMessageCard',
+  'chooseContact',
+  'startDeviceCredential',
+  'mailto',
+  'checkWatermark',
+  'startPasswordVerify',
+  'getHostLaunchQuery',
+  'getLaunchOptionsSync',
+  'filePicker',
+  'docsPicker',
+  'openDocument',
+  'showPrompt',
+  'openSchema'
+])
